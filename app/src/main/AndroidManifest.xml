@@ -10,6 +10,33 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Actividad_7">
         <activity
+            android:name=".menu9"
+            android:exported="false" />
+        <activity
+            android:name=".menu8"
+            android:exported="false" />
+        <activity
+            android:name=".menu7"
+            android:exported="false" />
+        <activity
+            android:name=".menu6"
+            android:exported="false" />
+        <activity
+            android:name=".menu5"
+            android:exported="false" />
+        <activity
+            android:name=".menu4"
+            android:exported="false" />
+        <activity
+            android:name=".menu3"
+            android:exported="false" />
+        <activity
+            android:name=".menu2"
+            android:exported="false" />
+        <activity
+            android:name=".menu1"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
