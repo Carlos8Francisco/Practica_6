@@ -4,65 +4,103 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@drawable/fondo1">
 
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+    <LinearLayout
+        android:id="@+id/lin1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:layout_centerHorizontal="true">
 
-        <LinearLayout
+        <TextView
+            android:text="@string/title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
-            <ListView
-                android:id="@+id/listap"
+            android:textSize="50dp"
+            android:textColor="#C1C1C1"
+            android:fontFamily="sans-serif-black"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/lin1"
+        android:layout_margin="20dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ListView
+                    android:id="@+id/listap"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"/>
 
-            <ListView
-                android:id="@+id/listap2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                <ListView
+                    android:id="@+id/listap2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"/>
 
-            <ListView
-                android:id="@+id/listap3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                <ListView
+                    android:id="@+id/listap3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"/>
 
-            <ListView
-                android:id="@+id/listap4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                <ListView
+                    android:id="@+id/listap4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"/>
 
-            <ListView
-                android:id="@+id/listap5"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                <ListView
+                    android:id="@+id/listap5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"/>
 
-            <ListView
-                android:id="@+id/listap6"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                <ListView
+                    android:id="@+id/listap6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"/>
 
-            <ListView
-                android:id="@+id/listap7"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                <ListView
+                    android:id="@+id/listap7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"/>
 
-            <ListView
-                android:id="@+id/listap8"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                <ListView
+                    android:id="@+id/listap8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"/>
 
-            <ListView
-                android:id="@+id/listap9"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                <ListView
+                    android:id="@+id/listap9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"/>
 
 
-        </LinearLayout>
+            </LinearLayout>
 
-    </ScrollView>
+        </ScrollView>
+
+
+
+    </LinearLayout>
+
 
 
 

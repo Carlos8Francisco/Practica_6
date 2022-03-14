@@ -1,4 +1,14 @@
 <resources>
     <string name="app_name">Actividad_7</string>
+    <string name="title"><u>Sistema Solar</u></string>
+    <string name="title2"><u>El Sol</u></string>
+    <string name="title3"><u>Mercurio</u></string>
+    <string name="title4"><u>Venus</u></string>
+    <string name="title5"><u>Tierra</u></string>
+    <string name="title6"><u>Marte</u></string>
+    <string name="title7"><u>Júpiter</u></string>
+    <string name="title8"><u>Saturno</u></string>
+    <string name="title9"><u>Urano</u></string>
+    <string name="title10"><u>Neptuno</u></string>
 
 </resources>

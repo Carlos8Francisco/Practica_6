@@ -22,20 +22,32 @@
             <TextView
                 android:text="Planeta"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#C1C1C1"
+                android:fontFamily="sans-serif-black"/>
             <TextView
                 android:id="@+id/plnt2"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:textColor="#C1C1C1"
+                android:fontFamily="sans-serif"/>
 
             <TextView
                 android:text="Clic "
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#C1C1C1"
+                android:fontFamily="sans-serif-black"/>
             <TextView
                 android:id="@+id/desp2"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:textColor="#C1C1C1"
+                android:fontFamily="sans-serif"/>
 
         </LinearLayout>
 
