@@ -8,11 +8,11 @@
     android:background="@drawable/fondo2">
 
     <LinearLayout
-        android:id="@+id/lin2"
+        android:id="@+id/lin1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="15dp"
-        android:layout_centerHorizontal="true"
+        android:gravity="center"
         android:orientation="vertical">
 
         <TextView
@@ -22,6 +22,36 @@
             android:textSize="50dp"
             android:textColor="#C1C1C1"
             android:fontFamily="sans-serif-black"/>
+
+        <LinearLayout
+            android:id="@+id/lin2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:text="El Sol es una estrella, es decir, un cuerpo celeste que brilla con luz propia, compuesto de hidrógeno y helio a enormes temperaturas en estado de plasma."
+                android:textSize="23dp"
+                android:gravity="center"
+                android:background="#C1000000"
+                android:textColor="#C1C1C1"
+                android:fontFamily="sans-serif-black"/>
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/crr1"
+            android:layout_below="@id/lin2"
+            android:text="Back"
+            android:layout_width="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content"
+            />
 
 
     </LinearLayout>

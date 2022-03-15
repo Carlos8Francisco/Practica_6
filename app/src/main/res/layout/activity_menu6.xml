@@ -8,11 +8,11 @@
     android:background="@drawable/fondo7">
 
     <LinearLayout
-        android:id="@+id/lin2"
+        android:id="@+id/lin1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="15dp"
-        android:layout_centerHorizontal="true"
+        android:gravity="center"
         android:orientation="vertical">
 
         <TextView
@@ -23,8 +23,40 @@
             android:textColor="#C1C1C1"
             android:fontFamily="sans-serif-black"/>
 
+        <LinearLayout
+            android:id="@+id/lin2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:text="Nombrado a partir del dios romano rey del Olimpo, Júpiter es el planeta mas grande del Sistema Solar, su diámetro es 11 veces mayor que el de la Tierra y su masa es casi dos veces y media la de los demás planetas juntos. "
+                android:textSize="23dp"
+                android:gravity="center"
+                android:background="#C1000000"
+                android:textColor="#C1C1C1"
+                android:fontFamily="sans-serif-black"/>
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/crr1"
+            android:layout_below="@id/lin2"
+            android:text="Back"
+            android:layout_width="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content"
+            />
+
+
 
     </LinearLayout>
+
 
 
 </RelativeLayout>

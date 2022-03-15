@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Actividad_7">
         <activity
+            android:name=".exit"
+            android:exported="false" />
+        <activity
             android:name=".menu9"
             android:exported="false" />
         <activity

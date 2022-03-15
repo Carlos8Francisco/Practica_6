@@ -6,17 +6,20 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     private ListView listView,listView2,listView3,listView4,listView5,listView6,listView7,listView8,listView9;
+    private Button exit;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        exit=(Button)findViewById(R.id.crr1);
         //Listas
         listView=(ListView) findViewById(R.id.listap);
         listView2=(ListView) findViewById(R.id.listap2);
@@ -160,6 +163,17 @@ public class MainActivity extends AppCompatActivity {
 
                 startActivity(new Intent(MainActivity.this,menu9.class));
                 Toast.makeText(getApplicationContext(),"Seleccionaste: "+nombres9[i],Toast.LENGTH_LONG).show();
+
+            }
+        });
+
+        exit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+
+                startActivity(new Intent(MainActivity.this, exit.class));
+
 
             }
         });

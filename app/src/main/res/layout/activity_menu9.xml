@@ -8,11 +8,11 @@
     android:background="@drawable/fondo10">
 
     <LinearLayout
-        android:id="@+id/lin2"
+        android:id="@+id/lin1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="15dp"
-        android:layout_centerHorizontal="true"
+        android:gravity="center"
         android:orientation="vertical">
 
         <TextView
@@ -22,6 +22,37 @@
             android:textSize="50dp"
             android:textColor="#C1C1C1"
             android:fontFamily="sans-serif-black"/>
+
+        <LinearLayout
+            android:id="@+id/lin2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:text="Nombrado a partir del dios romano del mar, Neptuno es el más exterior de los planetas gigantes gaseosos y de un color azul que recuerda a La Tierra (pero solo en el color, pues Neptuno no tiene superficie sólida, su temperatura es de -190 ºC, el día dura 16 horas y el año es de 60.000 días). La luz del Sol tarda 4 horas y 15 minutos en llegar a Neptuno."
+                android:textSize="23dp"
+                android:gravity="center"
+                android:background="#C1000000"
+                android:textColor="#C1C1C1"
+                android:fontFamily="sans-serif-black"/>
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/crr1"
+            android:layout_below="@id/lin2"
+            android:text="Back"
+            android:layout_width="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content"
+            />
+
 
 
     </LinearLayout>

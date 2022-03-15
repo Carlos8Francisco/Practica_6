@@ -8,11 +8,11 @@
     android:background="@drawable/fondo8">
 
     <LinearLayout
-        android:id="@+id/lin2"
+        android:id="@+id/lin1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="15dp"
-        android:layout_centerHorizontal="true"
+        android:gravity="center"
         android:orientation="vertical">
 
         <TextView
@@ -22,6 +22,37 @@
             android:textSize="50dp"
             android:textColor="#C1C1C1"
             android:fontFamily="sans-serif-black"/>
+
+        <LinearLayout
+            android:id="@+id/lin2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:text="Nombrado a partir del dios romano de la agricultura y la cosecha, Saturno es otro planeta gigante gaseoso con anillos y con multitud de satélites. Es tan enorme que cabrían 755 Tierras en Saturno, si bien su densidad es tan baja que todo el planeta podría flotar en el agua."
+                android:textSize="23dp"
+                android:gravity="center"
+                android:background="#C1000000"
+                android:textColor="#C1C1C1"
+                android:fontFamily="sans-serif-black"/>
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/crr1"
+            android:layout_below="@id/lin2"
+            android:text="Back"
+            android:layout_width="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content"
+            />
+
 
 
     </LinearLayout>
